@@ -1,0 +1,48 @@
+.header {
+    background-color: black;
+    color: white; 
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1em 0em;
+	position: fixed;
+    width: 100%;
+	top: 0;
+	z-index: 1;
+	box-shadow: 0 0 2em rgba(0,0,0,0.3); 
+}
+.gallery {
+    margin-top: 4.5em;
+}
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0.8em;
+}
+.city:hover {
+    background-color: rgba(0, 0, 0, 0.336);
+    position: relative;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.city {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.city h2 {
+    position: absolute;
+	width: 100%;
+	text-align: center;
+    font-size: 0.5em;
+    font-size: 2em;
+}
+.city:hover a {
+    display: block;
+}
+.city img {
+    position: relative;
+    z-index: -1;
+}
